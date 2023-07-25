@@ -1,0 +1,8 @@
+
+SCHEMA >
+    `records__data` Array(String),
+    `requestId` String,
+    `timestamp` Int64
+
+ENGINE "MergeTree"
+ENGINE_SORTING_KEY "records__data, requestId, timestamp"

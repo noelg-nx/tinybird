@@ -1,0 +1,6 @@
+NODE awsbigdata_pipe_1234_0
+SQL >
+
+    SELECT * FROM awsbigdata.disaggregate_data_mv
+
+
